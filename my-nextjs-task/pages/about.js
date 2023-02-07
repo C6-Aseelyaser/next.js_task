@@ -1,8 +1,9 @@
-export default function About() {
-    return (
-      <>
-      <div>About Page</div>
-      
-      </>
-    )
-  }
+// import Navbar from "@/components/Navbar";
+
+const about = () => {
+  return <div>
+    {/* <Navbar/> */}
+    <h1>about page</h1>
+  </div>;
+};
+export default about;
