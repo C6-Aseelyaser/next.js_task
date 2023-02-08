@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Product from "@/components/Product";
+import Head from "next/head";
 
 export async function getStaticProps() {
   const req = await fetch("https://fakestoreapi.com/products");
@@ -12,10 +13,13 @@ export async function getStaticProps() {
 const index = ({ products }) => {
   return (
     <main className="container">
+      <Head>
+        <title>Home | Online Products</title>
+      </Head>
       <div className="main">
-      {products.map((product) => (
-        <Product key={product.id} product={product}/>
-      ))}
+        {products.map((product) => (
+          <Product key={product.id} product={product} />
+        ))}
       </div>
     </main>
   );

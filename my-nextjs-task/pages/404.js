@@ -1,7 +1,7 @@
 const errpage =()=>{
     return (
         <div>
-            <h1> This Page Is Not Found</h1>
+            <h6> This Page Is Not Found</h6>
         </div>
     )
 }
