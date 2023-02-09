@@ -1,9 +1,10 @@
 import Navbar from "./Navbar";
 
 const Layout =({children}) =>{
+    console.log("child", children.props.products)
     return (
         <div className="layout">
-            <Navbar/>
+            <Navbar  />
             {children}
         </div>
     )

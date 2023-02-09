@@ -3,8 +3,8 @@ import Link from "next/link";
 import Styles from "./../styles/Product.module.css"
 
 const Product = ({product}) => {
-    console.log("pro" ,product)
-    const {title,price,image,id} = product
+    // console.log("pro" ,product)
+    const {title,price,image,id,category} = product
   return (
     <div className={Styles.product}>
         <div>
