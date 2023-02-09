@@ -1,6 +1,7 @@
 .nav{
     padding: 20px 0;
-    box-shadow:2px 1px 1px #ccc ;
+    /* box-shadow:2px 1px 1px #ccc ; */
+    background-color: #ffce2b;
 }
 .container{
     display: flex;

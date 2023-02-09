@@ -31,10 +31,12 @@ function sendProps(){
       <h3>{category}</h3>
       <h1>{price} $</h1>
       <p>{description}</p>
+      <br/>
+      <br/>
       {/* <Link href={`/products/cart`} className='button' product={product} id={id} >cart {id} </Link> */}
       {/* <a onClick={()=> sendProps()}> cart</a> */}
-      <Link onClick={()=> sendProps()} href={`/products/cart`}> cart</Link>
-      <Link  href={`/products/test`}> test</Link>
+      <Link onClick={()=> sendProps()} href={`/products/cart`} className={Styles.cart}> cart</Link>
+      {/* <Link  href={`/products/test`}> test</Link> */}
     </div>
   </div>;
   

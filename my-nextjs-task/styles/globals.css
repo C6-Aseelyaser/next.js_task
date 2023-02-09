@@ -19,13 +19,14 @@ a {
 }
 ul {
   list-style-type: none;
-  height: 100px;
-  padding: 10px 0 0 0;
+  /* height: 100px;
+  padding: 10px 0 0 0; */
 }
 .container {
   /* max-width: 1100px; */
   width: 70%;
   margin: 0 auto;
+  
 }
 h6 {
   margin: 100px;
@@ -38,17 +39,28 @@ h6 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
-  padding: 50px 0;
+  padding: 130px 0;
 }
 .button {
   padding: 10px 30px;
-  background-color: #ccc;
+  background-color: #ffce2b;
   margin-top: 20px;
   color: #000;
 }
  a{
   padding: 10px 30px;
-  background-color: #ccc;
+  background-color: #ffce2b;
   margin-top: 20px;
   color: #000;
+  font-weight: bold;
+ }
+
+ /*
+ #ffce2b yellow
+ #42413d dark gray
+ #959492 med gray
+ #b2afac light gray
+ */
+ .acc{
+  background-color: aqua;
  }

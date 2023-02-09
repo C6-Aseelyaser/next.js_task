@@ -10,7 +10,7 @@ const Product = ({product}) => {
         <div>
             <Image src={image} width="200" height="200" alt="img"/>
         </div>
-        <ul>
+        <ul className={Styles.ulPro}>
             <li> {title} </li>
             <li> {price} </li>
         </ul>
