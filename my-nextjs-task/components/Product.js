@@ -6,7 +6,7 @@ const Product = ({product}) => {
     // console.log("pro" ,product)
     const {title,price,image,id,category} = product
   return (
-    <div className={Styles.product}>
+    <div className={Styles.product} key={id}>
         <div>
             <Image src={image} width="200" height="200" alt="img"/>
         </div>
