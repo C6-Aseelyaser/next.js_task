@@ -66,7 +66,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 # 6. Usage :
 
-## login : the users have to log-in to authenticate .
+## login : the users have to log-in to authenticate . [Login with GitHub]
 <a href="" rel="noopener">
 <img width=300px height=300px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676048210/siginin1_xh1mak.png" alt="Project logo"></a>
 <a href="" rel="noopener">
@@ -82,9 +82,11 @@ These instructions will get you a copy of the project up and running on your loc
 <a href="" rel="noopener">
 <img width=700px height=400px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676052554/homepage_jvrtki.png" alt="Project logo"></a>
 
+## Get product by category 
 <a href="" rel="noopener">
 <img width=700px height=200px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676052411/categorypro2_dnbwrz.png" alt="Project logo"></a>
 <a href="" rel="noopener">
+
 <a href="" rel="noopener">
 <img width=700px height=200px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676051740/categorypro1_zx1zpg.png" alt="Project logo"></a>
 <a href="" rel="noopener">
