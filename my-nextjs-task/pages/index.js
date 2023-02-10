@@ -19,7 +19,7 @@ const index = ({ products }) => {
       </Head>
       <div className="main">
         <>
-        <Account/>
+        {/* <Account/> */}
         {products.map((product) => (
           <>
           <Product key={product.id} product={product} />

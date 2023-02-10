@@ -1,38 +1,157 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/)  project bootstrapped with [`create-next-app`]
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
+# 1. logo:
+
+<p>
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676046951/download_oqrmc0.png" alt="Project logo"></a>
+ <link rel="icon" href="https://cloudinary.com/console/c-9bb82f24be19e62c3de4ec05659a4b/media_library/folders/home" />
+</p>
+
+
+
+# 2. Project Name:
+
+<h4 >SHOPACK</h4>
+
+
+
+
+# 3. Deploy Link:
+<br>
+<a href='http://localhost:3000'>Online Store .. Here We Offer And Sell Products Online</a>
+
+<img width=400px height=350px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676046951/download_oqrmc0.png" alt="Project logo"></a>
+<br>
+
+
+
+
+# 4. About:
+
+<link rel="icon" href="%PUBLIC_URL%/images (1).png" />
+<p >
+SHOPACK is an entertaining lifestyle destination, catering to people’s needs of all age groups, genders and genres of interest. SHOPACK offers a wide variety of products which compliment countless hobbies and Passions.  SHOPACK is the first and only place that offers you all what you’re looking for with the chance to experience your favorite products, exclusive services and outstanding customer care. SHOPACK entertains people with products that enable every person from all walks of life to create, achieve, and enjoy life more. SHOPACK is the destination for those pursuing their passions. 
+
+**this app has many features :**
+
+- Ability to login with GitHub.
+- Provides information on products [description,rating ,image, price].
+- Possibility to buy products.
+- Delivery possibility.
+- Services [SAME DAY FREE DELIVERY, Gift Card, CASH & CARD ON DELIVERY,7 Days Return]. 
+
+
+**and all these features give the user facilities**
+- easy to search & purchase. 
+- easy to find the product .
+- saving time.  
+</p>
+
+
+
+# 5. Getting Started :
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+- Visual Studio Code follow this link (https://code.visualstudio.com/) to install
+- Git bash follow this link (https://git-scm.com/) to install
+- Github follow this link (https://github.com/)
+
+
+
+
+# 6. Usage :
+
+## login : the users have to log-in to authenticate .
+<a href="" rel="noopener">
+<img width=300px height=300px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676048210/siginin1_xh1mak.png" alt="Project logo"></a>
+<a href="" rel="noopener">
+<img width=300px height=300px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676048215/siginin2_hcn0vt.png" alt="Project logo"></a>
+
+
+## category : 
+
+<a href="" rel="noopener">
+<img width=500px height=70px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676052183/category_iuahvg.png" alt="Project logo"></a>
+
+## home :
+<a href="" rel="noopener">
+<img width=700px height=400px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676052554/homepage_jvrtki.png" alt="Project logo"></a>
+
+<a href="" rel="noopener">
+<img width=700px height=200px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676052411/categorypro2_dnbwrz.png" alt="Project logo"></a>
+<a href="" rel="noopener">
+<a href="" rel="noopener">
+<img width=700px height=200px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676051740/categorypro1_zx1zpg.png" alt="Project logo"></a>
+<a href="" rel="noopener">
+
+
+## product info : show info about the product
+<img width=600px height=400px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676052321/productmoredetails_xocyec.png" alt="Project logo"></a>
+
+
+
+
+
+# 7. Built Using :
+
+## A : Prerequisites
+
+- [Visual Studio Code](https://code.visualstudio.com/) -VS code
+- [React JS](https://https://reactjs.org/) 
+- [Next JS] (https://https://nextjs.org/)
+
+## B : Installing:
+
+- Clone the repo to your local machine using git bash. ~~> https://github.com/C6-Aseelyaser/MERAKI_Academy_Project_4
+- Install packeges repeat this step in backend and frontend folder ~~> 
+
+```
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Run server using git bash inside folder ~~> 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Installing packages
+```
+npm i next-auth
+```
+now the app is ready to use
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
