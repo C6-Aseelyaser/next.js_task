@@ -12,19 +12,22 @@ export async function getStaticProps() {
 }
 const jewelery = (props) => {
 
-  return (<div>
-        {props.jewelery.jewelery.map(e =>(
-                  <div key={e.id}>
-                  <div>
-             <Image src={e.image} width="200" height="200" alt="img"/>
-         </div>
-         <ul>
-             <li> {e.title} </li>
-             <li> {e.price} </li>
-         </ul>
-         <Link href="/" className='button'>More Details</Link>
-             </div>
-    ))}
-  </div>);
+  return (
+    <div className=" proCate" >
+      {props.jewelery.jewelery.map((e) => (
+        <div key={e.id} >
+          <Image src={e.image} width="200" height="200" alt="img" />
+          <div className="contTitlPri">
+            <h4 >{e.title}</h4>
+            <p >${e.price}</p>
+  
+          </div>
+          <Link href="/" className="button">
+              More Details
+            </Link>
+        </div>
+      ))}
+    </div>
+  );
 };
 export default jewelery;

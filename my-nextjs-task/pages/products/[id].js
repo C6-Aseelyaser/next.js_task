@@ -24,21 +24,24 @@ function sendProps(){
     }
   })
 }
-  return <div className={Styles.product + "container"}>
-    <div><Image src={image} width="300" height="500" alt=""/></div>
+  return <div className={ Styles.itemContainer}>
+    <h2>{title}</h2>
+    <br/> <Image src={image} width="300" height="500" alt=""/>
+    <br/> <p>Price: ${price} </p>
+    <br/> <p>Category: ${category} </p>
+    <br/> <p>Description: {description} </p>
+    <Link onClick={()=> sendProps()} href={`/products/cart`} className={Styles.cart}> cart</Link> 
+    {/* <div></div>
     <div>
-      <h2>{title}</h2>
+      
       <h3>{category}</h3>
-      <h1>{price} $</h1>
+      <h1> $</h1>
       <p>{description}</p>
       <br/>
       <br/>
-      {/* <Link href={`/products/cart`} className='button' product={product} id={id} >cart {id} </Link> */}
-      {/* <a onClick={()=> sendProps()}> cart</a> */}
-      <Link onClick={()=> sendProps()} href={`/products/cart`} className={Styles.cart}> cart</Link>
-      {/* <Link  href={`/products/test`}> test</Link> */}
+*/}
     </div>
-  </div>;
+
   
 };
 export default productPage;

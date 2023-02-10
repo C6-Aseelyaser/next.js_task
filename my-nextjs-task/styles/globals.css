@@ -64,3 +64,14 @@ h6 {
  .acc{
   background-color: aqua;
  }
+
+ .proCate{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 20px;
+  padding: 130px 0;
+ }
+ .contTitlPri{
+    height: 100px;
+  padding: 10px 0 0 0;
+ }
