@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/)  project bootstrapped with [`create-next-app`]
+This Is A [Next.js](https://nextjs.org/) Task "SHOPACK"
 
 
 
