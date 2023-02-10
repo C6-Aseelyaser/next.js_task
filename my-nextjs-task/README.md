@@ -40,14 +40,13 @@ SHOPACK is an entertaining lifestyle destination, catering to people’s needs o
 
 - Ability to login with GitHub.
 - Provides information on products [description,rating ,image, price].
-- Possibility to buy products.
-- Delivery possibility.
 - Services [SAME DAY FREE DELIVERY, Gift Card, CASH & CARD ON DELIVERY,7 Days Return]. 
 
 
 **and all these features give the user facilities**
-- easy to search & purchase. 
-- easy to find the product .
+- Easy to login with GitHub
+- Easy to find the product.
+- Show Product by category.
 - saving time.  
 </p>
 
@@ -68,9 +67,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## login : the users have to log-in to authenticate . [Login with GitHub]
 <a href="" rel="noopener">
-<img width=300px height=300px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676048210/siginin1_xh1mak.png" alt="Project logo"></a>
+<img width=px height=300px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676048210/siginin1_xh1mak.png" alt="Project logo"></a>
 <a href="" rel="noopener">
-<img width=300px height=300px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676048215/siginin2_hcn0vt.png" alt="Project logo"></a>
+<img width=px height=300px src="https://res.cloudinary.com/dv3wzcjeh/image/upload/v1676048215/siginin2_hcn0vt.png" alt="Project logo"></a>
 
 
 ## category : 
@@ -105,13 +104,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 - [Visual Studio Code](https://code.visualstudio.com/) -VS code
 - [React JS](https://https://reactjs.org/) 
-- [Next JS] (https://https://nextjs.org/)
+- [Next JS](https://nextjs.org/)
 
 ## B : Installing:
 
-- Clone the repo to your local machine using git bash. ~~> https://github.com/C6-Aseelyaser/MERAKI_Academy_Project_4
-- Install packeges repeat this step in backend and frontend folder ~~> 
+- Clone the repo to your local machine using git bash. ~~>https://github.com/C6-Aseelyaser/next.js_task
+- Setup the project
 
+```
+npm i create-next-app
+```
+- installs a package
 ```
 npm i
 ```
