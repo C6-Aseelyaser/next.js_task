@@ -2,6 +2,12 @@
     display: flex;
     padding: 20px 0;
 } */
+.itemContainer {
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    font-weight: bold;
+  }
 .cart{
     margin-left: 800px;
 

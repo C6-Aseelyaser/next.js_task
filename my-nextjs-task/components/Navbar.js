@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Styles from "./../styles/Navbar.module.css";
 const Navbar = ({ product }) => {
-  console.log("navpro", product);
   return (
     <nav className={Styles.nav}>
       <div className={Styles.container + " container "}>
@@ -37,10 +36,10 @@ const Navbar = ({ product }) => {
 
 export default Navbar;
 
-export async function getStaticProps() {
-  const req = await fetch("https://fakestoreapi.com/products");
-  const products = await req.json();
-  return {
-    props: { products },
-  };
-}
+// export async function getStaticProps() {
+//   const req = await fetch("https://fakestoreapi.com/products");
+//   const products = await req.json();
+//   return {
+//     props: { products },
+//   };
+// }

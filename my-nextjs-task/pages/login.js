@@ -1,5 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
+// /* eslint-disable @next/next/no-img-element */
+// /* eslint-disable react/no-unescaped-entities */
+import Product from "@/components/Product"
 import { useSession, signIn, signOut } from "next-auth/react"
 
 export default function Login() {
@@ -10,7 +13,7 @@ export default function Login() {
       <>
 
       <img src={session.user.image} alt="" style={{width:75 , borderRadius:50}} />
-      <p>Welcome, {session.user.name}.. You're Signed in as {session.user.email} </p> 
+      <p>Welcome, {session.user.name}.. You're Signed in as {session.user.email} </p>
        {/* Signed in as {session.user.email} <br /> */}
         <button onClick={() => signOut()}>Sign out</button>
       </>

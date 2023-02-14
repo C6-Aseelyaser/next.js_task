@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Styles from "./../styles/Product.module.css"
 
-
 const info = (props)=>{
     console.log(props.info.info)
     return (
@@ -15,7 +14,7 @@ const info = (props)=>{
                 <p >${e.price}</p>
       
               </div>
-              <Link href="/" className="button">
+              <Link href={`/products/${e.id}`} className="button">
                   More Details
                 </Link>
             </div>
@@ -24,7 +23,6 @@ const info = (props)=>{
       );
 }
 export default info;
-
 export async function getStaticProps() {
     const req = await fetch("http://localhost:3000/api/info");
     const data = await req.json();

@@ -11,7 +11,6 @@ export async function getStaticProps() {
   };
 }
 const jewelery = (props) => {
-
   return (
     <div className=" proCate" >
       {props.jewelery.jewelery.map((e) => (
@@ -22,7 +21,7 @@ const jewelery = (props) => {
             <p >${e.price}</p>
   
           </div>
-          <Link href="/" className="button">
+          <Link href={`/products/${e.id}`} className="button">
               More Details
             </Link>
         </div>
